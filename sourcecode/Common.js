@@ -1,3 +1,7 @@
+﻿function Teste(in){
+﻿    return "x" + in;
+﻿}
+﻿
 ﻿/// <summary>
 /// Find a element in array by key
 /// Array element must have a method Key()
