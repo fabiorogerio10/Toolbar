@@ -1,6 +1,3 @@
-﻿/// <reference path="Base.js" />
-/// <reference path="Modal.js" />
-/// <reference path="Site.js" />
 
 ToolbarButton.ButtonType = {
     Button: 0,
