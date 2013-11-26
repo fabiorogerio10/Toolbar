@@ -1,8 +1,3 @@
-﻿/// <reference path="Base.js" />
-/// <reference path="Modal.js" />
-/// <reference path="Toolbar.js" />
-/// <reference path="../Site.js" />
-/// <reference path="../../../Jquery/jquery-1.7.1.js" />
 
 function ToolBarTsInstance(domElement, settings) {
     
