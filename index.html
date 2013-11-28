@@ -7,10 +7,7 @@
     <meta name="description" content="Toolbar : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="https://raw.github.com/fabiorogerio10/Toolbar/master/sourcecode/Toolbar.js"></script>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://raw.github.com/fabiorogerio10/Toolbar/master/css/ToolBar.css">
-	
+
     <title>Toolbar</title>
   </head>
 
@@ -32,8 +29,6 @@
     </div>
 
     <!-- MAIN CONTENT -->
-	<div id="tlb"></div>
-	
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
@@ -82,17 +77,3 @@ $ git checkout gh-pages
 
   </body>
 </html>
-
-<script>
-    $(document).ready(function () {
-        $("#tlb").toolbarTS({ OnMessage: Show, OnError: Show });
-    });
-
-    function Show(message){
-        alert(message);
-    }
-
-    function GetText(text) {
-        return text;
-    }
-</script>
